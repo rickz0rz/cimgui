@@ -814,5 +814,143 @@
       "signature": "()",
       "stname": ""
     }
+  ],
+  "ImGui_ImplSDLRenderer_CreateDeviceObjects": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGui_ImplSDLRenderer_CreateDeviceObjects",
+      "defaults": {},
+      "funcname": "ImGui_ImplSDLRenderer_CreateDeviceObjects",
+      "location": "imgui_impl_sdlrenderer:30",
+      "ov_cimguiname": "ImGui_ImplSDLRenderer_CreateDeviceObjects",
+      "ret": "bool",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImGui_ImplSDLRenderer_CreateFontsTexture": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGui_ImplSDLRenderer_CreateFontsTexture",
+      "defaults": {},
+      "funcname": "ImGui_ImplSDLRenderer_CreateFontsTexture",
+      "location": "imgui_impl_sdlrenderer:28",
+      "ov_cimguiname": "ImGui_ImplSDLRenderer_CreateFontsTexture",
+      "ret": "bool",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImGui_ImplSDLRenderer_DestroyDeviceObjects": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGui_ImplSDLRenderer_DestroyDeviceObjects",
+      "defaults": {},
+      "funcname": "ImGui_ImplSDLRenderer_DestroyDeviceObjects",
+      "location": "imgui_impl_sdlrenderer:31",
+      "ov_cimguiname": "ImGui_ImplSDLRenderer_DestroyDeviceObjects",
+      "ret": "void",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImGui_ImplSDLRenderer_DestroyFontsTexture": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGui_ImplSDLRenderer_DestroyFontsTexture",
+      "defaults": {},
+      "funcname": "ImGui_ImplSDLRenderer_DestroyFontsTexture",
+      "location": "imgui_impl_sdlrenderer:29",
+      "ov_cimguiname": "ImGui_ImplSDLRenderer_DestroyFontsTexture",
+      "ret": "void",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImGui_ImplSDLRenderer_Init": [
+    {
+      "args": "(SDL_Renderer* renderer)",
+      "argsT": [
+        {
+          "name": "renderer",
+          "type": "SDL_Renderer*"
+        }
+      ],
+      "argsoriginal": "(SDL_Renderer* renderer)",
+      "call_args": "(renderer)",
+      "cimguiname": "ImGui_ImplSDLRenderer_Init",
+      "defaults": {},
+      "funcname": "ImGui_ImplSDLRenderer_Init",
+      "location": "imgui_impl_sdlrenderer:22",
+      "ov_cimguiname": "ImGui_ImplSDLRenderer_Init",
+      "ret": "bool",
+      "signature": "(SDL_Renderer*)",
+      "stname": ""
+    }
+  ],
+  "ImGui_ImplSDLRenderer_NewFrame": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGui_ImplSDLRenderer_NewFrame",
+      "defaults": {},
+      "funcname": "ImGui_ImplSDLRenderer_NewFrame",
+      "location": "imgui_impl_sdlrenderer:24",
+      "ov_cimguiname": "ImGui_ImplSDLRenderer_NewFrame",
+      "ret": "void",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImGui_ImplSDLRenderer_RenderDrawData": [
+    {
+      "args": "(ImDrawData* draw_data)",
+      "argsT": [
+        {
+          "name": "draw_data",
+          "type": "ImDrawData*"
+        }
+      ],
+      "argsoriginal": "(ImDrawData* draw_data)",
+      "call_args": "(draw_data)",
+      "cimguiname": "ImGui_ImplSDLRenderer_RenderDrawData",
+      "defaults": {},
+      "funcname": "ImGui_ImplSDLRenderer_RenderDrawData",
+      "location": "imgui_impl_sdlrenderer:25",
+      "ov_cimguiname": "ImGui_ImplSDLRenderer_RenderDrawData",
+      "ret": "void",
+      "signature": "(ImDrawData*)",
+      "stname": ""
+    }
+  ],
+  "ImGui_ImplSDLRenderer_Shutdown": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGui_ImplSDLRenderer_Shutdown",
+      "defaults": {},
+      "funcname": "ImGui_ImplSDLRenderer_Shutdown",
+      "location": "imgui_impl_sdlrenderer:23",
+      "ov_cimguiname": "ImGui_ImplSDLRenderer_Shutdown",
+      "ret": "void",
+      "signature": "()",
+      "stname": ""
+    }
   ]
 }

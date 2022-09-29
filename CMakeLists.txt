@@ -40,6 +40,7 @@ else (IMGUI_STATIC)
 endif (IMGUI_STATIC)
 
 target_compile_definitions(cimgui PUBLIC IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1)
+target_compile_definitions(cimgui PUBLIC -DCIMGUI_USE_SDL -DCIMGUI_USE_SDLRENDERER)
 if (WIN32)
     target_compile_definitions(cimgui PUBLIC IMGUI_IMPL_API=extern\t\"C\"\t__declspec\(dllexport\))
     list(APPEND IMGUI_LIBRARIES imm32)

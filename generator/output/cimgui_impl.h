@@ -58,3 +58,16 @@ CIMGUI_API void ImGui_ImplSDL2_NewFrame(void);
 CIMGUI_API bool ImGui_ImplSDL2_ProcessEvent(const SDL_Event* event);
 
 #endif
+#ifdef CIMGUI_USE_SDLRENDERER
+
+typedef struct SDL_Renderer SDL_Renderer;
+struct SDL_Renderer;CIMGUI_API bool ImGui_ImplSDLRenderer_Init(SDL_Renderer* renderer);
+CIMGUI_API void ImGui_ImplSDLRenderer_Shutdown(void);
+CIMGUI_API void ImGui_ImplSDLRenderer_NewFrame(void);
+CIMGUI_API void ImGui_ImplSDLRenderer_RenderDrawData(ImDrawData* draw_data);
+CIMGUI_API bool ImGui_ImplSDLRenderer_CreateFontsTexture(void);
+CIMGUI_API void ImGui_ImplSDLRenderer_DestroyFontsTexture(void);
+CIMGUI_API bool ImGui_ImplSDLRenderer_CreateDeviceObjects(void);
+CIMGUI_API void ImGui_ImplSDLRenderer_DestroyDeviceObjects(void);
+
+#endif
